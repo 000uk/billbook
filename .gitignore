@@ -45,3 +45,40 @@ __pycache__/
 *.log
 .ipynb_checkpoints/train/ckpt/
 train/*.parquet
+
+### React / Node ###
+node_modules/
+dist/
+build/
+coverage/
+
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Vite / Next 등 캐시
+.vite/
+.next/
+out/
+
+# TypeScript
+*.tsbuildinfo
+
+# ESLint cache
+.eslintcache
+
+# Dependency directories (sometimes used)
+.pnp/
+.pnp.js
+
+# Optional lock files (보통은 커밋하지만 팀 정책에 따라)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
